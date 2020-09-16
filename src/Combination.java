@@ -1,5 +1,5 @@
 /*
-baekjoon-2407번
+baekjoon-2407번(sil2)
 
 nCm을 출력한다.
 
