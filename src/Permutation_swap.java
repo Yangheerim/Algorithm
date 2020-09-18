@@ -29,7 +29,7 @@ if N=4
 Fail... 사전순대로 안나옴 이해 필요
 */
 
-class permutation {
+class Permutation_swap {
 
     public static void main(String[] args) {
 
