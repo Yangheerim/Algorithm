@@ -45,9 +45,10 @@ public class MinHeap {
 
     public static void insert(int data) {
         heap.add(data);
-        int position = heap.size() - 1; // index를 맞추기 위해 임의로 넣었던 값이 하나 있으므로, size-1
+        int position = heap.size() - 1; // index를 맞추기 위해 임의로 넣었던 값이 하나 있으므로, 마지막 index는 size-1
 
-        // 새로 들어온 값이 루트까지 갔거나(?), 부모<자식 일 때까지 반복
+        // 새로 들어온 값이 루트가 되거나, 부모<자식 일 때까지 반복
+        // == position이 루트가 아니고 부모>자식이면 swap
         while (position > 1 && heap.get(position / 2) > heap.get(position)) {
             // 부모
             int tmp = heap.get(position);
@@ -69,10 +70,11 @@ public class MinHeap {
 
         int position = 1;
         while (position * 2 < heap.size()) { //???
-            int small_position = position * 2;
+            int small_position = position * 2; // left node position
 
             // left node의 값과 right node의 값 중 더 작은값과 swap하기 때문에 비교해봄
-            if (heap.size() > position * 2 + 1) { //right노드가 있으면
+            if (heap.size() > position * 2 + 1) { // right노드가 있으면
+                // 더 작은 값을 가진 노드의 position을 겟
                 small_position = heap.get(position * 2) < heap.get(position * 2 + 1) ? position * 2 : position * 2 + 1;
             }
             if (heap.get(position) > heap.get(small_position)) { // 부모 값이 더 크면 바꿔줘야함.
