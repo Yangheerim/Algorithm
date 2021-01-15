@@ -1,11 +1,17 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Stack;
+import java.util.StringTokenizer;
 
-public class p4181 {
+/*
+Convex Hull - Monotone chain algorithm
+upper과 lower를 따로 구해서 각각 마지막꺼 빼고 합쳐주면 된다.
+로직은 맞는 것 같은데 틀렸습니다가 뜸.
+ */
+public class p4181_error {
     static class Point{
         long x;
         long y;
@@ -16,7 +22,6 @@ public class p4181 {
     }
     static int n;
     static ArrayList<Point> points;
-    static Point first;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
@@ -34,33 +39,20 @@ public class p4181 {
                 points.add(new Point(x,y));
         }
 
-        // 기준점 찾기1 - x좌표가 가장 작은 점, 같을 경우 y좌표가 작은 점
-        first = points.get(0);
-        for (int i = 1; i < points.size(); i++) {
-            if (points.get(i).x < first.x) {
-                first = points.get(i);
-            } else if (points.get(i).x == first.x) {// x좌표가 동일한 경우 y좌표 비교
-                if (points.get(i).y < first.y) {
-                    first = points.get(i);
-                }
-            }
-        }
-
-        // 기준점 기준으로 반시계방향으로 정렬, 세 점이 일직선상에 있다면 거리가 증가하도록 정렬
-        // 1: 바꿔라, -1 : 안바꿔도된다
+        // x축 기준으로 정렬
         points.sort(new Comparator<Point>() {
             @Override
             public int compare(Point p1, Point p2) {
-                long v = ccw(first, p1, p2);
-                if(v > 0)
+                long v = p1.x - p2.x;
+                if(v < 0)
                     return -1;
-                else if(v < 0)
+                else if(v > 0)
                     return 1;
-                else if (dist(first, p1) > dist(first, p2))
-                    return 1;
-                return -1;
+                else
+                    return 0;
             }
         });
+
         monotoneChain();
     }
     static void monotoneChain(){
@@ -73,7 +65,7 @@ public class p4181 {
             lower.add(points.get(i));
         }
 
-        // reverse
+
         Stack<Point> upper = new Stack<>();
         for (int i=points.size()-1; i>=0; i--){
             while (upper.size()>=2 && ccw(upper.get(upper.size() - 2), upper.get(upper.size() - 1), points.get(i))<0){
@@ -88,8 +80,17 @@ public class p4181 {
         for(int i=0; i<upper.size()-1; i++){
             System.out.println(upper.get(i).x+" "+upper.get(i).y);
         }
-
+        // test
+//        System.out.println(lower.size());
+//        for(int i=0; i<lower.size(); i++){
+//            System.out.println(lower.get(i).x+" "+lower.get(i).y);
+//        }
+//        System.out.println(upper.size());
+//        for(int i=0; i<upper.size(); i++){
+//            System.out.println(upper.get(i).x+" "+upper.get(i).y);
+//        }
     }
+
     static long ccw(Point p1, Point p2, Point p3){
         return ((p1.x*p2.y) + (p2.x*p3.y) + (p3.x * p1.y)) - ((p1.y*p2.x) + (p2.y*p3.x) + (p3.y*p1.x));
         // 양수 - ccs / 음수 - cw / 0 - 직선
