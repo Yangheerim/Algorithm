@@ -39,7 +39,7 @@ public class p4181 {
         for (int i = 1; i < points.size(); i++) {
             if (points.get(i).x < first.x) {
                 first = points.get(i);
-            } else if (points.get(i).x == first.x) {// x좌표가 동일한 경우 y좌표 비교
+            } else if (points.get(i).x == first.x) {// x좌표가 동일한 경우 y좌표 비교!
                 if (points.get(i).y < first.y) {
                     first = points.get(i);
                 }
@@ -63,6 +63,7 @@ public class p4181 {
         });
         monotoneChain();
     }
+
     static void monotoneChain(){
 
         Stack<Point> lower = new Stack<>();
