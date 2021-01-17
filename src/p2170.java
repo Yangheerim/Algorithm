@@ -37,7 +37,7 @@ public class p2170 {
             lines.add(new Line(Long.parseLong(st.nextToken()),Long.parseLong(st.nextToken())));
         }
 
-        // x에 대한 오름차순으로 정렬, x가 같을 경우 y가 작은게 우선
+        // x에 대한 오름차순으로 정렬, x가 같을 경우 y가 작은게 우선!
         lines.sort(new Comparator<Line>() {
             @Override
             public int compare(Line o1, Line o2) {
