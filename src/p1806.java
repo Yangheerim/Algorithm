@@ -5,6 +5,7 @@ p2003과 비슷하지만, 이번엔 sum이 S보다 같거나 '큰' 경우의 최
 sum>=S일 경우, sum<S가 될때까지 sum-=nums[s++]을 해준다.
 길이가 줄어도 sum이 S보다 클 경우가 있기 때문에 더 작은 length를 가진다면 갱신해준다.
 end가 n+1까지 도달하고, 더 이상 sum>=S인 경우가 없으면 종료.
+참고 : https://wellohorld.tistory.com/28
  */
 public class p1806 {
     public static void main(String[] args) throws IOException {
