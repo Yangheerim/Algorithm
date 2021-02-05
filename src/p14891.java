@@ -53,6 +53,18 @@ public class p14891 {
             gears[w_num][7] = tmp;
         }
 
+        // 이거 왜 안되는지 해결해야함
+//        char[] origin = gears[w_num];
+//        if(d==1){ // 시계방향
+//            for(int i=0; i<7; i++) {
+//                gears[w_num][i] = origin[(i+7)%8];
+//            }
+//        }else{  // 반시계방향
+//            for(int i=0; i<7; i++) {
+//                gears[w_num][i] = origin[(i+1)%8];
+//            }
+//        }
+
 //        System.out.println("\n돌리기 후 : ("+d+")");
 //        for(int i=0; i<8; i++){
 //            System.out.print(gears[w_num][i]);
