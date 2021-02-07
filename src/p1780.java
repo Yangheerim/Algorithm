@@ -47,7 +47,6 @@ public class p1780 {
         }
 
         // 9개로 나눔
-        int m = n/3;
         for(int i=0; i<3; i++){
             for(int j=0; j<3; j++){
                 divide(x+(n/3)*i, y+(n/3)*j, n/3);
