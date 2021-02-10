@@ -42,7 +42,6 @@ public class p20055 {
                 break;
             }
         }
-
     }
 
     public static void rotateBelt(){
@@ -63,11 +62,6 @@ public class p20055 {
             robot[i+1] = robot[i];
         }
         robot[1]=false;
-        //test
-//        System.out.println("---------------rotateBelt---------------");
-//        for(int i=1; i<=2*n; i++){
-//            System.out.println("i="+i+"\tbelt="+belt[i]+"\trobot="+robot[i]);
-//        }
     }
 
     public static void moveRobots(){
@@ -84,29 +78,18 @@ public class p20055 {
                 belt[i+1]--;
             }
         }
-        //test
-//        System.out.println("---------------moveRobots---------------");
-//        for(int i=1; i<=2*n; i++){
-//            System.out.println("i="+i+"\tbelt="+belt[i]+"\trobot="+robot[i]);
-//        }
     }
     public static void addRobot(){
         if(!robot[1] && belt[1]>0){
             robot[1] = true;
             belt[1]--;
         }
-        //test
-//        System.out.println("---------------addRobot---------------");
-//        for(int i=1; i<=2*n; i++){
-//            System.out.println("i="+i+"\tbelt="+belt[i]+"\trobot="+robot[i]);
-//        }
     }
     public static boolean isEnd(){
         int count = 0;
         for(int i=1; i<=2*n; i++){
             if(belt[i]==0) count++;
         }
-//        System.out.println("count : "+count);
         if(count>=k){
             return true;
         }else{
