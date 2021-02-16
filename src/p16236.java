@@ -4,12 +4,13 @@ import java.util.*;
 import java.util.Queue;
 /*
 아기상어
-BFS
+BFS로 같은 depth에 있는 위치를 전부 탐색한 뒤, 다음 depth를 보는 방법으로 진행
+현재 상어가 탐색하고 있는 위치와, 원래 상어가 있던 위치를 분리해서 생각해야한다.
+
 참고 : https://seungahyoo.tistory.com/74
  */
 public class p16236 {
     static int[][] map;
-    static Fish shark;
     static int n;
     static int[] mi = { -1, 1, 0, 0 };
     static int[] mj = { 0, 0, -1, 1 };
@@ -21,19 +22,21 @@ public class p16236 {
 
         n = Integer.parseInt(br.readLine());
         map = new int[n][n];
+        int si=0, sj=0;
         for(int i=0; i<n; i++){
             st = new StringTokenizer(br.readLine());
             for(int j=0; j<n; j++){
                 map[i][j] = Integer.parseInt(st.nextToken());
                 if(map[i][j]==9){
-                    shark = new Fish(i, j);
+                    si=i;
+                    sj=j;
                 }
             }
         }
-        System.out.println(bfs());
+        System.out.println(bfs(si, sj));
     }
 
-    public static int bfs(){
+    public static int bfs(int si, int sj){
         int shark_size = 2;
         int shark_eat = 0;
         ArrayList<Fish> eatable_fish = new ArrayList<>();
@@ -41,19 +44,19 @@ public class p16236 {
         int sec = 0;
         int total_sec = 0; // 상어가 엄마의 도움 없이 물고기를 잡아먹을 수 있는 시간(초)
         boolean[][] visited = new boolean[n][n];
-        q.add(shark); // 상어의 처음 위치
-        visited[shark.i][shark.j] = true;
+        q.add(new Fish(si, sj)); // 상어의 처음 위치
+        visited[si][sj] = true;
 
         while(!q.isEmpty()){
             int q_size = q.size();
-            int si=0, sj=0;
-            for(int s=0; s<q_size; s++){ // 같은 거리만큼 떨어진 곳을 확인
+            int i = -1, j=-1;
+            for(int s=0; s<q_size; s++){ // 같은 거리만큼 떨어진 곳을 확인 (1초단위)
                 Fish shark = q.poll(); // 상어의 현재 위치
-                si = shark.i;
-                sj = shark.j;
+                i = shark.i;
+                j = shark.j;
                 for(int d=0; d<4; d++){ // 현재 위치로부터 상하좌우 방문하지 않은 곳을 확인
-                    int ni = si + mi[d];
-                    int nj = sj + mj[d];
+                    int ni = i + mi[d];
+                    int nj = j + mj[d];
 
                     if(ni<0 || nj<0 || ni>=n || nj>=n) continue; // 인덱스가 벗어나면 못감
                     if(visited[ni][nj] || map[ni][nj]>shark_size) continue; // 이미 방문했거나 상어크기보다 큰 물고기가 있으면 못감
@@ -88,8 +91,8 @@ public class p16236 {
                 total_sec += sec;
                 sec = 0;
 
-                for(int i=0;i<n;i++) { //visit initialize
-                    Arrays.fill(visited[i], false);
+                for(int ii=0; ii<n; ii++) { //visit initialize
+                    Arrays.fill(visited[ii], false);
                 }
 
                 visited[si][sj] = true;
