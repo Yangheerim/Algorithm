@@ -43,7 +43,6 @@ public class p14502 {
                 }
             }
         }
-
     }
 
     static int[] moveI = {0,0,-1,1};

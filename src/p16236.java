@@ -110,6 +110,8 @@ public class p16236 {
             this.i = i;
             this.j = j;
         }
+        //음수 또는 0이면 객체의 자리가 그대로 유지되며, 양수인 경우에는 두 객체의 자리가 바뀐다.
+        //https://gmlwjd9405.github.io/2018/09/06/java-comparable-and-comparator.html
         @Override
         public int compareTo(Fish o) {
             if (this.i == o.i) {

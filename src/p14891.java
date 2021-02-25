@@ -29,7 +29,6 @@ public class p14891 {
         }
 
         printResult();
-
     }
 
     public static void spin(int w_num, int d, boolean[] visited){

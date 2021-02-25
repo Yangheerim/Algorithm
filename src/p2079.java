@@ -50,6 +50,7 @@ public class p2079 {
         System.out.println(result[string.length-1]);
 
     }
+
     static void palindrome(char[] str){
         for(int i=2; i<str.length; i++){
             for(int j=1; j<str.length-i; j++){

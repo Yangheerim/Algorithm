@@ -25,7 +25,7 @@ public class p14501 {
 //        for(int j = 1; j<=days+1; j++){
 //            System.out.print(dp[j]+" ");
 //        }
-        System.out.println();
+//        System.out.println();
         for (int i = 1; i <= days; i++) {
             dp[i + 1] = Math.max(dp[i], dp[i + 1]);
             if(i+works[i].time<=days+1)

@@ -47,6 +47,7 @@ public class p15685 {
         x = nx;
         y = ny;
         arr.add(d);
+
         // g가 1세대부터 실행
         for (int i = 1; i <=g; i++) { // i는 세대를 나타냄
             int arr_length = arr.size();

@@ -45,6 +45,7 @@ public class p4963 {
         }
         bw.flush();
     }
+
     static void dfs(int i, int j){
         visited[i][j] = true;
         for(int d=0; d<8; d++){
@@ -58,4 +59,5 @@ public class p4963 {
             }
         }
     }
+
 }

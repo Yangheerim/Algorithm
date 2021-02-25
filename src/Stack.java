@@ -20,7 +20,7 @@ OUTPUT : 출력해야하는 명령이 주어질 때마다, 한 줄에 하나씩 
 
 import java.util.Scanner;
 
-public class Stack {
+public class Stack<P> {
 
     public static void main(String[] args) {
 
