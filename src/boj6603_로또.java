@@ -43,6 +43,17 @@ public class boj6603_로또 {
 
         visited[idx] = false;
         dfs(idx + 1, count, k);
+
+
+
+        //이렇게 해도 가능!
+
+//        for (int i = idx; i < k; i++) {
+//            visited[i] = true;
+//            dfs(i+1, count+1, k);
+//            visited[i] = false;
+//        }
+
     }
 
 }
