@@ -14,12 +14,14 @@ public class boj11052_카드구매하기 {
         int[] dp = new int[n+1];
         for(int i=1; i<=n; i++){
             price[i] = Integer.parseInt(st.nextToken());
+            dp[i] = price[i];
         }
 
         for(int i=1; i<=n; i++){
-            for(int j=1; j<=i; j++){
-                dp[i] = Math.max(dp[i], dp[i - j] + price[j]);
-                System.out.println("i="+i+", i-j="+(i - j)+", j="+j);
+            for(int j=1; j<=i/2; j++){
+//                System.out.println("dp["+i+"]="+dp[i]+", dp["+(i-j)+"]+price["+j+"]="+(dp[i - j]+price[j]));
+                dp[i] = Math.max(dp[i], dp[i - j] + dp[j]);
+
             }
         }
         System.out.println(dp[n]);
