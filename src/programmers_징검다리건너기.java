@@ -36,26 +36,27 @@ public class programmers_징검다리건너기 {
         return jump_count < k;
     }
 
-//    public int solution(int[] stones, int k) {
-//        int answer = 0; // 건넌 학생 수
-//
-//        int zero_cnt = 0;
-//        outerLoop:
-//        while(true){
-//
-//            for(int i=0; i<stones.length; i++){
-//                if(stones[i]>0){
-//                    stones[i]--;
-//                    zero_cnt = 0;
-//                }else{
-//                    zero_cnt ++;
-//                }
-//                if(zero_cnt==k) break outerLoop;
-//            }
-//            answer++;
-//
-//        }
-//
-//        return answer;
-//    }
+    // 정답률 100%, But 효율성 제로 코드
+    public int solution2(int[] stones, int k) {
+        int answer = 0; // 건넌 학생 수
+
+        int zero_cnt = 0;
+        outerLoop:
+        while(true){
+            zero_cnt = 0;
+            for(int i=0; i<stones.length; i++){
+                if(stones[i]>0){
+                    stones[i]--;
+                    zero_cnt = 0;
+                }else{
+                    zero_cnt ++;
+                }
+                if(zero_cnt==k) break outerLoop;
+            }
+            answer++;
+
+        }
+
+        return answer;
+    }
 }
