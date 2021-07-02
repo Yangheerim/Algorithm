@@ -8,6 +8,7 @@ public class boj10971_외판원순회2 {
     static boolean[] visited;
     static int[][] map;
     static long result_min = Integer.MAX_VALUE;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         n = Integer.parseInt(br.readLine());
@@ -21,15 +22,17 @@ public class boj10971_외판원순회2 {
             }
         }
 
-        visited = new boolean[n];
-        visited[0] = true;
-        dfs(0, 0);
+        for(int i=0; i<n; i++) {
+            visited = new boolean[n];
+            visited[i] = true;
+            dfs(i, i, 0);
+        }
         System.out.println(result_min);
     }
 
-    public static void dfs(int now, long cost){
+    public static void dfs(int start, int now, long cost){
         if (allVisited()) {
-            if(map[now][0]!=0){
+            if(map[now][start]!=0){
                 result_min = Math.min(result_min, cost+map[now][0]);
             }
             return;
@@ -38,7 +41,7 @@ public class boj10971_외판원순회2 {
         for(int i=1; i<n; i++){
             if (!visited[i] && map[now][i] != 0) {
                 visited[i] = true;
-                dfs(i, cost + map[now][i]);
+                dfs(start, i, cost + map[now][i]);
                 visited[i] = false;
             }
         }
