@@ -26,9 +26,18 @@ __[BOJ]__
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-7576-%ED%86%A0%EB%A7%88%ED%86%A0-JAVA">[백준] 7576 : 토마토 (JAVA)</a><br>
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-9465-%EC%8A%A4%ED%8B%B0%EC%BB%A4-JAVA">[백준] 9465 : 스티커 (JAVA)</a><br>
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-2422-%ED%95%9C%EC%9C%A4%EC%A0%95%EC%9D%B4-%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%84%EC%97%90-%EA%B0%80%EC%84%9C-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC%EC%9D%84-%EC%82%AC%EB%A8%B9%EB%8A%94%EB%8D%B0-JAVA">[백준] 2422 : 한윤정이 이탈리아에 가서 아이스크림을 사먹는데 (JAVA)</a><br>
-...<a href=""></a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1647-%EB%8F%84%EC%8B%9C-%EB%B6%84%ED%95%A0-%EA%B3%84%ED%9A%8D-JAVA%EC%9E%90%EB%B0%94">[백준] 1647 : 도시 분할 계획 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1495-%EA%B8%B0%ED%83%80%EB%A6%AC%EC%8A%A4%ED%8A%B8-JAVA%EC%9E%90%EB%B0%94">[백준] 1495 : 기타리스트 (JAVA)</a><br>
+...
 <br><br>
+
 
 __[Programmers]__
 <br>
-_comming,,,_
+
+<a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80-%EB%AA%BB%ED%95%9C-%EC%84%A0%EC%88%98-JAVA%EC%9E%90%EB%B0%94">[프로그래머스] 완주하지 못한 선수 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%9C%84%EC%9E%A5-JAVA%EC%9E%90%EB%B0%94">[프로그래머스] 위장 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94-JAVA%EC%9E%90%EB%B0%94">[프로그래머스] 베스트앨범 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C-JAVA%EC%9E%90%EB%B0%94">[프로그래머스] 기능개발 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%94%84%EB%A6%B0%ED%84%B0-JAVA%EC%9E%90%EB%B0%94">[프로그래머스] 프린터 (JAVA)</a><br>
+...
