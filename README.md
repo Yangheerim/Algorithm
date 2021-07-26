@@ -28,6 +28,9 @@ __[BOJ]__
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-2422-%ED%95%9C%EC%9C%A4%EC%A0%95%EC%9D%B4-%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%84%EC%97%90-%EA%B0%80%EC%84%9C-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC%EC%9D%84-%EC%82%AC%EB%A8%B9%EB%8A%94%EB%8D%B0-JAVA">[백준] 2422 : 한윤정이 이탈리아에 가서 아이스크림을 사먹는데 (JAVA)</a><br>
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1647-%EB%8F%84%EC%8B%9C-%EB%B6%84%ED%95%A0-%EA%B3%84%ED%9A%8D-JAVA%EC%9E%90%EB%B0%94">[백준] 1647 : 도시 분할 계획 (JAVA)</a><br>
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1495-%EA%B8%B0%ED%83%80%EB%A6%AC%EC%8A%A4%ED%8A%B8-JAVA%EC%9E%90%EB%B0%94">[백준] 1495 : 기타리스트 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-2667-%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0-JAVA%EC%9E%90%EB%B0%94">[백준] 2667 : 단지번호붙이기 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-16918-%EB%B4%84%EB%B2%84%EB%A7%A8-JAVA%EC%9E%90%EB%B0%94">[백준] 16918 : 봄버맨 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-2933-%EB%AF%B8%EB%84%A4%EB%9E%84-JAVA%EC%9E%90%EB%B0%94">[백준] 2933 : 미네랄 (JAVA)</a><br>
 ...
 <br><br>
 
