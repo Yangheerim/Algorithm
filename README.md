@@ -31,6 +31,11 @@ __[BOJ]__
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-2667-%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0-JAVA%EC%9E%90%EB%B0%94">[백준] 2667 : 단지번호붙이기 (JAVA)</a><br>
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-16918-%EB%B4%84%EB%B2%84%EB%A7%A8-JAVA%EC%9E%90%EB%B0%94">[백준] 16918 : 봄버맨 (JAVA)</a><br>
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-2933-%EB%AF%B8%EB%84%A4%EB%9E%84-JAVA%EC%9E%90%EB%B0%94">[백준] 2933 : 미네랄 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1764-%EB%93%A3%EB%B3%B4%EC%9E%A1-JAVA%EC%9E%90%EB%B0%94">[백준] 1764 : 듣보잡 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1620-%EB%82%98%EB%8A%94%EC%95%BC-%ED%8F%AC%EC%BC%93%EB%AA%AC-%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%9D%B4%EB%8B%A4%EC%86%9C-JAVA%EC%9E%90%EB%B0%94">[백준] 1620 : 나는야 포켓몬 마스터 이다솜 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1012-%EC%9C%A0%EA%B8%B0%EB%86%8D-%EB%B0%B0%EC%B6%94-JAVA%EC%9E%90%EB%B0%94">[백준] 1012 : 유기농 배추 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1074-Z-JAVA%EC%9E%90%EB%B0%94">[백준] 1074 : Z (JAVA)</a><br>
+
 ...
 <br><br>
 
