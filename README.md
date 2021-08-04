@@ -35,6 +35,10 @@ __[BOJ]__
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1620-%EB%82%98%EB%8A%94%EC%95%BC-%ED%8F%AC%EC%BC%93%EB%AA%AC-%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%9D%B4%EB%8B%A4%EC%86%9C-JAVA%EC%9E%90%EB%B0%94">[백준] 1620 : 나는야 포켓몬 마스터 이다솜 (JAVA)</a><br>
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1012-%EC%9C%A0%EA%B8%B0%EB%86%8D-%EB%B0%B0%EC%B6%94-JAVA%EC%9E%90%EB%B0%94">[백준] 1012 : 유기농 배추 (JAVA)</a><br>
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1074-Z-JAVA%EC%9E%90%EB%B0%94">[백준] 1074 : Z (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-14938-%EC%84%9C%EA%B0%95%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-JAVA%EC%9E%90%EB%B0%94">[백준] 14938 : 서강그라운드 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1916-%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9-%EA%B5%AC%ED%95%98%EA%B8%B0-JAVA%EC%9E%90%EB%B0%94">[백준] 1916 : 최소비용 구하기 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-2638-%EC%B9%98%EC%A6%88-JAVA%EC%9E%90%EB%B0%94">[백준] 2638 : 치즈 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-12865-%ED%8F%89%EB%B2%94%ED%95%9C-%EB%B0%B0%EB%82%AD-JAVA%EC%9E%90%EB%B0%94">[백준] 12865 : 평범한 배낭 (JAVA)</a><br>
 
 ..._comming_
 <br><br>
