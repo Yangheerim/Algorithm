@@ -39,6 +39,10 @@ __[BOJ]__
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1916-%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9-%EA%B5%AC%ED%95%98%EA%B8%B0-JAVA%EC%9E%90%EB%B0%94">[백준] 1916 : 최소비용 구하기 (JAVA)</a><br>
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-2638-%EC%B9%98%EC%A6%88-JAVA%EC%9E%90%EB%B0%94">[백준] 2638 : 치즈 (JAVA)</a><br>
 <a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-12865-%ED%8F%89%EB%B2%94%ED%95%9C-%EB%B0%B0%EB%82%AD-JAVA%EC%9E%90%EB%B0%94">[백준] 12865 : 평범한 배낭 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-1167-%ED%8A%B8%EB%A6%AC%EC%9D%98-%EC%A7%80%EB%A6%84-JAVA%EC%9E%90%EB%B0%94">[백준] 1167 : 트리의 지름 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-11725-%ED%8A%B8%EB%A6%AC%EC%9D%98-%EB%B6%80%EB%AA%A8-%EC%B0%BE%EA%B8%B0-JAVA%EC%9E%90%EB%B0%94">[백준] 11725 : 트리의 부모 찾기 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-2407-%EC%A1%B0%ED%95%A9-JAVA%EC%9E%90%EB%B0%94">[백준] 2407 : 조합 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-2206-%EB%B2%BD-%EB%B6%80%EC%88%98%EA%B3%A0-%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0-JAVA%EC%9E%90%EB%B0%94">[백준] 2206 : 벽 부수고 이동하기 (JAVA)</a><br>
 
 ..._comming_
 <br><br>
