@@ -61,5 +61,11 @@ __[Programmers]__
 <a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%9C%84%EC%9E%A5-JAVA%EC%9E%90%EB%B0%94">[프로그래머스] 위장 (JAVA)</a><br>
 <a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94-JAVA%EC%9E%90%EB%B0%94">[프로그래머스] 베스트앨범 (JAVA)</a><br>
 <a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C-JAVA%EC%9E%90%EB%B0%94">[프로그래머스] 기능개발 (JAVA)</a><br>
-<a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%94%84%EB%A6%B0%ED%84%B0-JAVA%EC%9E%90%EB%B0%94">[프로그래머스] 프린터 (JAVA)</a><br><br>
+<a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%94%84%EB%A6%B0%ED%84%B0-JAVA%EC%9E%90%EB%B0%94">[프로그래머스] 프린터 (JAVA)</a><br>
+<a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%98%A4%ED%94%88%EC%B1%84%ED%8C%85%EB%B0%A9-JAVA%EC%9E%90%EB%B0%94">[프로그래머스] 오픈채팅방 (JAVA/자바) - 2019 카카오 기출</a><br>
+<a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%8B%A4%ED%8C%A8%EC%9C%A8-JAVA%EC%9E%90%EB%B0%94-2019-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B8%B0%EC%B6%9C">[프로그래머스] 실패율 (JAVA/자바) - 2019 카카오 기출</a><br>
+<a href="https://velog.io/@yanghl98/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%9B%84%EB%B3%B4%ED%82%A4-JAVA%EC%9E%90%EB%B0%94-2019-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EA%B8%B0%EC%B6%9C">[프로그래머스] 후보키 (JAVA/자바) - 2019 카카오 기출</a><br>
+
+
+<br>
 ..._comming_
